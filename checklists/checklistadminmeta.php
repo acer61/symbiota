@@ -385,7 +385,6 @@ if (!$clid) {
 	<?php
 			} else {
 				echo '<div style="margin:10px;">' . (isset($LANG['NO_PROJECTS']) ? $LANG['NO_PROJECTS'] : 'There are no Projects for which you have administrative permissions');
-				print_r($USER_RIGHTS);
 				echo '</div>';
 			}
 		} else echo '<div style="margin:10px;">' . (isset($LANG['NO_CREATE']) ? $LANG['NO_CREATE'] : 'You do not have create permissions') . '</div>';
